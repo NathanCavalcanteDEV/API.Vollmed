@@ -3,7 +3,7 @@ package API.Rest.da.aplicacao.Voll.med.medico;
 import API.Rest.da.aplicacao.Voll.med.endereco.DadosEndereco;
 import jakarta.validation.constraints.NotNull;
 
-public record DadosAtualizacaoMedicos(
+public record DadosAtualizacaoMedico(
         @NotNull
         Long id,
         String nome,

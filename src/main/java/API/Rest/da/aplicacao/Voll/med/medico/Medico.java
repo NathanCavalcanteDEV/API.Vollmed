@@ -41,7 +41,7 @@ Ou seja, os atributos de Endereco serão salvos como colunas dentro da tabela me
     private Boolean ativo;
 
 
-    public Medico(DadosCadastroMedicos dados){
+    public Medico(DadosCadastroMedico dados){
         this.ativo = true;
         this.nome = dados.nome();
         this.crm = dados.crm();
@@ -54,7 +54,7 @@ Ou seja, os atributos de Endereco serão salvos como colunas dentro da tabela me
 
     }
 
-    public void atualizarInformacoes(@Valid DadosAtualizacaoMedicos dados) {
+    public void atualizarInformacoes(@Valid DadosAtualizacaoMedico dados) {
         if (dados.nome() != null){
             this.nome = dados.nome();
         }
