@@ -30,7 +30,7 @@ public class MedicoController {
         repository.save(medico);
 
         var uri = uriBuilder.path("/medicos/{id}").buildAndExpand(medico.getId()).toUri();
-
+        /* o ResponseEntity é a forma correta de comunicar ao cliente não só o que você está retornando, mas como foi a operação através do status HTTP.*/
         return ResponseEntity.created(uri).body(new DadosDetalhamentoMedico(medico));
 
     }
@@ -55,6 +55,13 @@ public class MedicoController {
         var medico = repository.getReferenceById(id);
         medico.excluir();
         return ResponseEntity.noContent().build();
+
+    }
+    @GetMapping("/{id}")
+
+    public ResponseEntity detalhar (@PathVariable Long id) {
+        var medico = repository.getReferenceById(id);
+        return ResponseEntity.ok(new DadosDetalhamentoMedico(medico));
 
     }
 
