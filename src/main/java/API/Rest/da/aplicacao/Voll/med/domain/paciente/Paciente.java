@@ -1,6 +1,6 @@
-package API.Rest.da.aplicacao.Voll.med.paciente;
+package API.Rest.da.aplicacao.Voll.med.domain.paciente;
 
-import API.Rest.da.aplicacao.Voll.med.endereco.Endereco;
+import API.Rest.da.aplicacao.Voll.med.domain.endereco.Endereco;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

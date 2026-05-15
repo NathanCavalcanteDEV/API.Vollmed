@@ -1,6 +1,5 @@
-package API.Rest.da.aplicacao.Voll.med.paciente;
+package API.Rest.da.aplicacao.Voll.med.domain.paciente;
 
-import org.apache.logging.log4j.util.Lazy;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

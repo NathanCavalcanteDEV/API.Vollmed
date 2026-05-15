@@ -1,7 +1,7 @@
 package API.Rest.da.aplicacao.Voll.med.controller;
 
-import API.Rest.da.aplicacao.Voll.med.medico.DadosCadastroMedico;
-import API.Rest.da.aplicacao.Voll.med.medico.DadosDetalhamentoMedico;
+import API.Rest.da.aplicacao.Voll.med.domain.medico.DadosCadastroMedico;
+import API.Rest.da.aplicacao.Voll.med.domain.medico.DadosDetalhamentoMedico;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -11,10 +11,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
-import API.Rest.da.aplicacao.Voll.med.medico.DadosListagemMedico;
-import API.Rest.da.aplicacao.Voll.med.medico.DadosAtualizacaoMedico;
-import API.Rest.da.aplicacao.Voll.med.medico.Medico;
-import API.Rest.da.aplicacao.Voll.med.medico.MedicoRepository;
+import API.Rest.da.aplicacao.Voll.med.domain.medico.DadosListagemMedico;
+import API.Rest.da.aplicacao.Voll.med.domain.medico.DadosAtualizacaoMedico;
+import API.Rest.da.aplicacao.Voll.med.domain.medico.Medico;
+import API.Rest.da.aplicacao.Voll.med.domain.medico.MedicoRepository;
 
 @RestController
 @RequestMapping("medicos")

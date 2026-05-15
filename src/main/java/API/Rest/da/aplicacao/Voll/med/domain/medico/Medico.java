@@ -1,6 +1,6 @@
-package API.Rest.da.aplicacao.Voll.med.medico;
+package API.Rest.da.aplicacao.Voll.med.domain.medico;
 
-import API.Rest.da.aplicacao.Voll.med.endereco.Endereco;
+import API.Rest.da.aplicacao.Voll.med.domain.endereco.Endereco;
 import jakarta.persistence.*;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;

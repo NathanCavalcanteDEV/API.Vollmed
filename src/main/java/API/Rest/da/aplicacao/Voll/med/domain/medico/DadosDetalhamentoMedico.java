@@ -1,7 +1,7 @@
-package API.Rest.da.aplicacao.Voll.med.medico;
+package API.Rest.da.aplicacao.Voll.med.domain.medico;
 
 
-import API.Rest.da.aplicacao.Voll.med.endereco.Endereco;
+import API.Rest.da.aplicacao.Voll.med.domain.endereco.Endereco;
 
 public record DadosDetalhamentoMedico(Long id, String nome, String email, String crm, String telefone, Especialidade especialidade, Endereco endereco) {
 

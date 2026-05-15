@@ -1,6 +1,6 @@
 package API.Rest.da.aplicacao.Voll.med.controller;
 
-import API.Rest.da.aplicacao.Voll.med.paciente.*;
+import API.Rest.da.aplicacao.Voll.med.domain.paciente.*;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;

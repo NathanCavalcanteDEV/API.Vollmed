@@ -1,6 +1,6 @@
-package API.Rest.da.aplicacao.Voll.med.medico;
+package API.Rest.da.aplicacao.Voll.med.domain.medico;
 
-import API.Rest.da.aplicacao.Voll.med.endereco.DadosEndereco;
+import API.Rest.da.aplicacao.Voll.med.domain.endereco.DadosEndereco;
 import jakarta.validation.constraints.NotNull;
 
 public record DadosAtualizacaoMedico(

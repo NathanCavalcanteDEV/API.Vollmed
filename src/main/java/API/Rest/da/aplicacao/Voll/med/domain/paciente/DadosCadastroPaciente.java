@@ -1,6 +1,6 @@
-package API.Rest.da.aplicacao.Voll.med.paciente;
+package API.Rest.da.aplicacao.Voll.med.domain.paciente;
 
-import API.Rest.da.aplicacao.Voll.med.endereco.DadosEndereco;
+import API.Rest.da.aplicacao.Voll.med.domain.endereco.DadosEndereco;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
